@@ -1,0 +1,86 @@
+.contenair {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+}
+.panel {
+    width: 45vw;
+   /* height: 100px;*/
+    background-color: rgb(86, 87, 88);
+    border: 1px solid black;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.panelsetting {
+    width: 45vw;
+    
+     background-color: rgb(86, 87, 88);
+     border: 1px solid black;
+   
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-around;
+
+}
+.timenow {
+    display: flex;
+    font-family: 'Digital Numbers', sans-serif;
+    color: rgb(47, 166, 47);
+    align-items: center;
+    padding: 10px;
+    gap: 20px;
+    font-size: 1.5em;
+}
+.timejourney {
+    
+        display: flex;
+        font-family: 'Digital Numbers', sans-serif;
+        color: rgb(251, 182, 70);
+        align-items: center;
+        padding: 10px;
+        gap: 20px;
+        font-size: 1.5em;
+    
+}
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.case {
+    font-size: 2.5em;
+    background-color: black;
+    padding: 5px;
+}
+h3 {
+    display: flex;
+    background-color: black;
+    color: WHITE;
+    justify-content: center;
+    font-size: 1.5em;
+}
+.illuminated {
+    padding: 5px;
+    width: 5px;
+    height: 5px; 
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    font-weight: bold; /* Ajout d'un style de police en gras pour le texte */
+}
+p{
+    display: flex;
+    width: fit-content;
+    background-color: rgb(255, 7, 7);
+    color: WHITE;
+    justify-content: center;
+    font-family: 'NeverMind Slab', sans-serif;
+    font-size: 1.2sem;
+}
